@@ -1,0 +1,218 @@
+{
+  "items": [
+    {
+      "_id": "67f3fac74797216e500568de",
+      "tenantId": "63e107540eddbc090b522f0f",
+      "perkId": "63f346d998bc2109762b0907",
+      "userId": "67f3fa564e07827ecf714024",
+      "points": {
+        "initial": 0,
+        "min": 0,
+        "max": 100000,
+        "step": 1,
+        "redemption": 1,
+        "available": 10,
+        "totalAwarded": 22355,
+        "totalRedeemed": 18100
+      },
+      "updatedAt": "2025-04-07T16:18:15.874Z",
+      "loyaltyProvider": "PEPPER",
+      "visualisation": {
+        "stampImageUrl": "",
+        "textColour": "#ffffff",
+        "stampColour": "#ffffff",
+        "randomiseStampPositions": true,
+        "backgroundOverlayColour": "#ffffff",
+        "backgroundOverlayOpacity": 0,
+        "subtitleText": "{{available}} point{{s}}",
+        "description": "Collect points for every transaction you make.",
+        "availableCardCopy": "",
+        "nextCardProgressCopy": "",
+        "textAlignment": "CENTER",
+        "subtitleTwoText": "Worth {{currency}}",
+        "verticalAlignment": "CENTER",
+        "backgroundImageUrl": "https://media.pepperhq.com/tenants/63e107540eddbc090b522f0f/content/4017fc2a-a327-4fcf-a983-e236b7788599.png",
+        "colours": [],
+        "media": [],
+        "templates": [],
+        "titleText": "NRC EATS COIN"
+      },
+      "token": "19",
+      "terms": "To redeem using the NRC Eats loyalty check in, cannot be exchanged for cash.",
+      "isGlobal": true,
+      "locationIds": [
+        "63f34b0de2786d09765eb63e",
+        "63e114a35fac3909404aaa07",
+        "63f34bb103e3190982c3f342",
+        "63f34c2298bc2109762b0a06"
+      ],
+      "priority": 80,
+      "template": "PSEUDO_CURRENCY",
+      "auto": true,
+      "isDonatable": false,
+      "maximumPointCashValue": 1,
+      "isTier": false,
+      "title": "NRC EATS COIN",
+      "redemptionMethod": "AUTO",
+      "basketQualification": {
+        "matchCode": "freebee",
+        "scope": "BASKET"
+      },
+      "discount": {
+        "childItemRule": "INCLUDE",
+        "value": 0.1,
+        "type": "VALUE",
+        "scope": "BASKET",
+        "rule": "ALL",
+        "scopeMatchCode": "freebee"
+      },
+      "__v": 0,
+      "dateTimeRestriction": {},
+      "enabled": true
+    },
+    {
+      "_id": "67f3fac74797216e500568e0",
+      "tenantId": "63e107540eddbc090b522f0f",
+      "perkId": "63f345f503e3190982c3f24b",
+      "userId": "67f3fa564e07827ecf714024",
+      "points": {
+        "initial": 1,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "redemption": 1,
+        "available": 1,
+        "totalAwarded": 30,
+        "totalRedeemed": 5
+      },
+      "updatedAt": "2025-04-07T16:18:15.871Z",
+      "loyaltyProvider": "PEPPER",
+      "visualisation": {
+        "stampImageUrl": "",
+        "textColour": "#ffffff",
+        "stampColour": "#ffffff",
+        "randomiseStampPositions": true,
+        "backgroundOverlayColour": "#ffffff",
+        "backgroundOverlayOpacity": 0,
+        "subtitleText": "Thanks for joining- get 10% off your first order",
+        "description": "Just 10% off, scan the barcode to redeem at the till!",
+        "availableCardCopy": "",
+        "nextCardProgressCopy": "",
+        "textAlignment": "CENTER",
+        "subtitleTwoText": "",
+        "verticalAlignment": "CENTER",
+        "backgroundImageUrl": "https://media.pepperhq.com/tenants/63e107540eddbc090b522f0f/content/a555826a-8d58-41dd-81aa-869265fd364b.png",
+        "colours": [],
+        "media": [],
+        "templates": [],
+        "titleText": "Welcome 10% off"
+      },
+      "token": "19",
+      "terms": "To redeem using the NRC Eats loyalty check in, cannot be exchanged for cash.",
+      "isGlobal": true,
+      "priority": 90,
+      "template": "AD_HOC",
+      "auto": false,
+      "isDonatable": false,
+      "maximumPointCashValue": 1,
+      "isTier": false,
+      "title": "Welcome 10% off",
+      "redemptionMethod": "AUTO",
+      "locationIds": [
+        "63f34b0de2786d09765eb63e",
+        "63e114a35fac3909404aaa07",
+        "63f34bb103e3190982c3f342",
+        "63f34c2298bc2109762b0a06"
+      ],
+      "basketQualification": {
+        "scope": "BASKET"
+      },
+      "discount": {
+        "childItemRule": "INCLUDE",
+        "value": 0.1,
+        "type": "PERCENTAGE",
+        "scope": "BASKET",
+        "rule": "ALL"
+      },
+      "__v": 0,
+      "dateTimeRestriction": {},
+      "enabled": true
+    },
+    {
+      "_id": "67f3fac74797216e500568e3",
+      "tenantId": "63e107540eddbc090b522f0f",
+      "perkId": "63f3477b03e3190982c3f282",
+      "userId": "67f3fa564e07827ecf714024",
+      "points": {
+        "initial": 1,
+        "min": 0,
+        "max": 100000,
+        "step": 1,
+        "redemption": 10,
+        "available": 1,
+        "totalAwarded": 877,
+        "totalRedeemed": 790
+      },
+      "updatedAt": "2025-04-07T16:18:15.899Z",
+      "loyaltyProvider": "PEPPER",
+      "visualisation": {
+        "stampImageUrl": "",
+        "textColour": "#ffffff",
+        "stampColour": "#ffffff",
+        "randomiseStampPositions": false,
+        "backgroundOverlayColour": "#ffffff",
+        "backgroundOverlayOpacity": 0,
+        "subtitleText": "Collect 10 stamps!",
+        "description": "Collect 10 stamps to get a free coffee",
+        "availableCardCopy": "Free coffee!",
+        "nextCardProgressCopy": "Collect 10 stamps!",
+        "textAlignment": "LEFT",
+        "subtitleTwoText": "",
+        "verticalAlignment": "BOTTOM",
+        "backgroundImageUrl": "https://media.pepperhq.com/tenants/63e107540eddbc090b522f0f/content/888d132c-cdb8-403b-a98c-b29651cb4173.png",
+        "colours": [],
+        "media": [],
+        "templates": [],
+        "titleText": "Coffee Card"
+      },
+      "token": "20",
+      "terms": "To redeem using the NRC Eats loyalty barcode, cannot be exchanged for cash.",
+      "isGlobal": true,
+      "locationIds": [
+        "63f34b0de2786d09765eb63e",
+        "63e114a35fac3909404aaa07",
+        "63f34bb103e3190982c3f342",
+        "63f34c2298bc2109762b0a06"
+      ],
+      "priority": 70,
+      "template": "STAMP_CARD",
+      "auto": true,
+      "isDonatable": false,
+      "maximumPointCashValue": 1,
+      "isTier": false,
+      "title": "Coffee Card",
+      "redemptionMethod": "AUTO",
+      "basketQualification": {
+        "matchCode": "coffeestamp2",
+        "minimumItems": 1,
+        "scope": "CATEGORY"
+      },
+      "discount": {
+        "childItemRule": "INCLUDE",
+        "value": 1,
+        "type": "PERCENTAGE",
+        "scope": "CATEGORY",
+        "rule": "CHEAPEST",
+        "scopeMatchCode": "coffeestamp1"
+      },
+      "__v": 0,
+      "dateTimeRestriction": {},
+      "enabled": true
+    }
+  ],
+  "page": {
+    "count": 3,
+    "limit": 200,
+    "startKey": "eyJfaWQiOiI2N2YzZmFjNzQ3OTcyMTZlNTAwNTY4ZGUifQ"
+  }
+}
